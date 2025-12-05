@@ -20,19 +20,19 @@ GitHub          : https://github.com/juno-cash/junocash
 ### Download the binary
 
 ```
-wget https://github.com/juno-cash/junocash/releases/download/v0.9.2-dev/junocash-0.9.2-dev-1b8d56f4-linux64.tar.gz
+wget https://github.com/juno-cash/junocash/releases/download/v0.9.4/junocash-0.9.4-linux64.tar.gz
 ```
 
 ### Extract
 
 ```
-tar -xvf junocash-0.9.2-dev-1b8d56f4-linux64.tar.gz 
+tar -xvf junocash-0.9.4-linux64.tar.gz  
 ```
 
 ### Go into the extracted folder (adjust if the folder name differs)
 
 ```
-cd junocash-0.9.2 
+cd junocash-0.9.4 
 ```
 
 ### Make sure binary is executable
