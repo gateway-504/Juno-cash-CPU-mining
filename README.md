@@ -20,19 +20,19 @@ GitHub          : https://github.com/juno-cash/junocash
 ### Download the binary
 
 ```
-wget https://github.com/juno-cash/junocash/releases/download/v0.9.1/junocash-0.9.1-linux-x86_64.tar.gz  # [web:39]
+wget https://github.com/juno-cash/junocash/releases/download/v0.9.2-dev/junocash-0.9.2-dev-1b8d56f4-linux64.tar.gz
 ```
 
 ### Extract
 
 ```
-tar -xvf junocash-0.9.1-linux-x86_64.tar.gz
+tar -xvf junocash-0.9.2-dev-1b8d56f4-linux64.tar.gz 
 ```
 
 ### Go into the extracted folder (adjust if the folder name differs)
 
 ```
-cd junocash-0.9.1-linux-x86_64
+cd junocash-0.9.2 
 ```
 
 ### Make sure binary is executable
@@ -44,7 +44,6 @@ chmod +x bin/junocashd
 ### Run the daemon and start mining
 
 ```
-cd ~/junocash-0.9.1-linux-x86_64
 ./bin/junocashd
 ```
 
@@ -54,7 +53,7 @@ When the terminal UI is up:
 
 - Press T
 
-- Type -1 or any Numbers of threads you wish to run and press Enter to start mining as per the tweet’s instructions.
+- Type -1 for max threads or any number of threads you wish to run and press Enter to start mining as per the tweet’s instructions.
 
 
 ### Donation
